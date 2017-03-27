@@ -44,7 +44,7 @@ drinks.register_item('drinks:jsb_'..desc, 'vessels:steel_bottle',{
    end,
 })
 
-drinks.register_item('drinks:jbu_'..desc, 'vessels:steel_bottle', {
+minetest.register_craftitem('drinks:jbu_'..desc, {
    description = 'Bucket of '..craft..' Juice',
    groups = {drink = 1},
    juice_type = craft,
